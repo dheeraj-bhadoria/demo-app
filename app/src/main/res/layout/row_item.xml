@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+            <LinearLayout
+                android:padding="12dp"
+                android:layout_weight="1.5"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:padding="5dp"
+                    android:text="Name"
+                    android:id="@+id/tv_Title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:padding="5dp"
+                    android:text="Number"
+                    android:id="@+id/tv_MobileNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:maxLines="1"
+                    android:singleLine="true"
+                    android:padding="5dp"
+                    android:text="Email id"
+                    android:id="@+id/tv_EmailID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:src="@drawable/ic_baseline_edit_24"
+                    android:padding="5dp"
+                    android:id="@+id/iv_edit"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"/>
+
+                <ImageView
+                    android:layout_marginLeft="25dp"
+                    android:src="@drawable/ic_baseline_delete_24"
+                    android:padding="5dp"
+                    android:id="@+id/iv_delete"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+</RelativeLayout>

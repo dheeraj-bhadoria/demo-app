@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:maxLines="1"
+        android:singleLine="true"
+        android:hint="Enter User Name"
+        android:id="@+id/userName_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_marginTop="5dp"
+        android:hint="Enter user email id"
+        android:id="@+id/userEmail_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <EditText
+        android:maxLength="10"
+        android:singleLine="true"
+        android:maxLines="10"
+        android:layout_marginTop="5dp"
+        android:hint="Enter user mobile number"
+        android:id="@+id/userMobile_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:text="SAVE"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </Button>
+
+
+</LinearLayout>
